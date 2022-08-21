@@ -1,2 +1,2 @@
 # signup-form
-Sign-up form for an imaginary service
+Sign-up form for an mockup service
