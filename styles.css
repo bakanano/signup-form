@@ -1,3 +1,24 @@
+
+body {
+    height: 100vh;
+}
+
+h1 {
+    color: white;
+}
+
 .container {
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.side-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./side-img.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;  
+    height: 100vh;
 }
