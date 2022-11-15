@@ -1,6 +1,16 @@
+@font-face {
+    font-family: "Norse Bold";
+    src: url("./Norse-Bold.otf");
+}
 
 body {
-    height: 100vh;
+    font-family: "Norse Bold";
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -14,11 +24,13 @@ h1 {
 }
 
 .side-hero {
+    outline: 2px solid red;
     display: flex;
     align-items: center;
     justify-content: center;
     background-image: url(./side-img.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     height: 100vh;
 }
