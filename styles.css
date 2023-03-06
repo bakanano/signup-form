@@ -9,28 +9,27 @@
     padding: 0;
 }
 
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+body {
+    font-family: "Norse Bold", sans-serif;
 }
 
-.side-hero {
+.container {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url(./side-img.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    flex-direction: row;
+    width: 100vw;
     height: 100vh;
+}
+
+.left-section {
+    background-image: url("/side-img.jpg");
+    background-repeat: no-repeat;
 }
 
 .logo {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     margin: 0;
-    margin-top: ;
+    margin-top: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,10 +41,5 @@
 
 .logo h1 {
     color: white;
-    font-family: "Norse Bold";
     font-size: 6rem;
-}
-
-.side-form .filler-text {
-    font-weight: bolder;
 }
