@@ -4,13 +4,8 @@
 }
 
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-body {
-    font-family: "Norse Bold", sans-serif;
 }
 
 .container {
@@ -21,8 +16,11 @@ body {
 }
 
 .left-section {
-    background-image: url("/side-img.jpg");
+    background-image: url("images/side-img.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 40vw;
 }
 
 .logo {
@@ -42,4 +40,33 @@ body {
 .logo h1 {
     color: white;
     font-size: 6rem;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+}
+
+.fillertext-section {
+    height: 35vh;
+}
+
+.form-container {
+    height: 35vh;
+    background-color: white;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.account {
+    height: 35px;
 }

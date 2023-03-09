@@ -10,7 +10,6 @@
 <body>
     <div class="container">
         <div class="left-section">
-            <!--<h1>Sign-up Form</h1>!-->
         </div>
         <div class="right-section">
             <div class="fillertext-section">
@@ -21,26 +20,44 @@
                 <br/>
             <p>You <em>know</em> you want to.</p>
             </div>
-            <div>
-            <form>
-                <div class="user-input-section">
-                <label for="first-name">FIRST NAME</label>
-                <input type="text" name="first-name"/>
-                <label for="last-name">LAST NAME</label>
-                <input type="text" name="last-name"/>
-                <label for="email">EMAIL</label>
-                <input type="text" name="email"/>
-                <label for="number">PHONE NUMBER</label>
-                <input type="tel" name="number"/>
-                <label for="password">PASSWORD</label>
-                <input type="password" name="password"/>
-                <label for="password-confirm">CONFIRM PASSWORD</label>
-                <input type="password" name="password-confirm"/>
+            <div class="form-container">
+                <form class="form">
+                    <div class="left-side">
+                        <div class="form-input">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" name="first-name"/>
+                        </div>
+                        <div class="form-input">
+                        <label for="email">EMAIL</label>
+                        <input type="text" name="email"/>
+                        </div>
+                        <div class="form-input">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password"/>
+                        </div>
+                    </div>
+                    <div class="right-side">
+                        <div class="form-input">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" name="last-name"/>
+                        </div>
+                        <div class="form-input">
+                        <label for="phone-number">PHONE NUMBER</label>
+                        <input type="tel" name="phone"/>
+                        </div>
+                        <div class="form-input">
+                        <label for="password-confirm">CONFIRM PASSWORD</label>
+                        <input type="password" name="password-confirm"/>
+                        </div>
+                    </div>
+                <div>
+                    <button type="submit">Create Account</button>
                 </div>
-                <button type="submit">Create Account</button>
-            </form>
+                </form>
             </div>
-        <p>Already have an account? <a href="#">Log in</a></p>
+            <div class="account">
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
         </div>
     </div>
 </body>
