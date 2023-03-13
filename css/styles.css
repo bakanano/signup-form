@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "Norse Bold";
+    src: url("../fonts/Norse-Bold.otf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left-section {
+    background-image: url("../images/timo-wagner-fT6-YkB0nfg-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 40vw;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #a54740;
+}
+
+.fillertext-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10%;
+    padding: 3%;
+    font-family: sans-serif;
+}
+
+.form-container {
+    height: 35vh;
+    background-color: white;
+    padding: 3%;
+    background-color: #a54740;
+}
+
+.form {
+    display: flex;
+    background-color:#576475;
+    color: #101010;
+    box-shadow: 20px 20px;
+    border-radius: 25px;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #D8A79A;
+}
+
+label {
+    color:white;
+    font-family: sans-serif;
+}
+
+.account {
+    height: 35px;
+    padding: 3%;
+    margin-bottom: 10%;
+}
+
+.submit {
+    background-color: #A86849;
+    border: none;
+    border-radius: 15px;
+    padding: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
